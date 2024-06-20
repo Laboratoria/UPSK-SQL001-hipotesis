@@ -494,10 +494,99 @@ Uso la columna `Self review` para evaluar si haz alcanzado o no cada objetivo.
 
 ## 8. Objetivos de aprendizaje
 
-> ℹ️ Esta sección será automáticamente generada en el idioma pertinente, a partir
-> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
-> al crear el repo del proyecto para un cohort en particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
-> que contempla nuestra currícula.
+
+Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+
+### Análisis de datos
+
+- [ ] **Cargar información a una base de datos**
+
+  <details><summary>Links</summary><p>
+
+  * [Mini curso BigQuery](https://coda.io/d/Curso-Google-BigQuery_dhocNT3PUIE/Introduccion_su3UO#_luO8s)
+  * [Cómo empezar con BigQuery (sandbox - versión gratuita)](https://cloud.google.com/bigquery/docs/sandbox?hl=es-419)
+  * [Qué es BigQuery](https://www.youtube.com/watch?v=RxKtIicl8r0)
+  * [Cómo crear un Project, Dataset y cargar tabla en BigQuery](https://www.youtube.com/watch?v=BN8WAOtJ4CY)
+  * [Concepto valores nulos](https://docs.google.com/document/d/1AJRLPg2SWLvC1pnGOz-f1SNZXH1X63x2xWlquDBtlmE/edit?usp=sharing)
+  * [versión en audio](https://drive.google.com/file/d/1Y88gJEBdorDMRoEjnIUJNyI4G0LLAaGk/view?usp=drive_link)
+  * [Qué es una consulta (query)](https://docs.google.com/document/d/1upi7Ashq_wro02zjMjnQlWgivQ9gsQWIy8q9pLm9WZ4/edit)
+  * [Cómo guardar queries](https://www.loom.com/share/461b7c3f07214d7897b68890c1389b77?sid=9c6d46b2-5ff6-4a60-823b-c976f535a18d)
+  * [Cómo idenficar nulos usando COUNT, WHERE y IS NULL](https://www.loom.com/share/3ae5d6e7f500405f95e8f1a110413a35?sid=c44c44d8-7caa-4da4-9261-03f6fd92348c)
+  * [Concepto valores duplicados](https://docs.google.com/document/d/1jXm4s7b17eObHd8sMvJSGwWi1YzdG_VZq56Xooy5Ioo/edit?usp=sharing)
+  * [versión en audio](https://drive.google.com/file/d/1TbKPSvocksk33eFg42lHf3kD8Y3NuzsN/view?usp=drive_link)
+  * [Cómo identificar duplicados a través de GROUP BY y HAVING (Ve también la diferencia entre los comandos WHERE y HAVING)](https://www.loom.com/share/0bd5d25a7e634bd39012f5bd913e3a3b?sid=507743b7-ee30-4c68-8756-a344798cad32)
+  * [Concepto valores fuera del alcance](https://docs.google.com/document/d/1-SsxH5Ke3qAaWg5YKrkRwkExd91Q0RdJGplLAiXPiYA/edit?usp=sharing)
+  * [versión en audio](https://drive.google.com/file/d/1Z963-z4MCiRRjt5RZF75oH_CH1BqDNrO/view?usp=drive_link)
+  * [Cómo utilizar EXCEPT para selecionar variables](https://www.loom.com/share/2fa18d5cfd33403faaa794a2b08671f1?sid=2d16f30b-a26c-4d3c-bfd8-88ba7c664f25)
+  * [Cómo utilizar comandos LIKE y REGEXP](https://www.loom.com/share/3f7bb1362d5947ecb8c83e6f0690a4a5?sid=76f52b28-efb3-4991-b4c1-bd288bd4e805)
+  * [Documentación Google sobre String Functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/string_functions)
+  * [Concepto variables categóricas](https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing)
+  * [Concepto variables categóricas  (versión en audio)](https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link)
+  * [Video sobre tipos de variables](https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191)
+  * [Identificar valores discrepantes en variables numéricas con MAX, MIN y AVG](https://www.loom.com/share/4fb40d01dddf4e3cbf981029ed08613a?sid=5e46b20b-5ea4-47c4-a808-99969a369431)
+  * [Concepto variables numéricas](https://docs.google.com/document/d/1oTn46djgWYlhcY9_Ak9H2edY2_rR8gpJco66njPwkCc/edit?usp=sharing)
+  * [Tipos de datos en SQL](https://docs.google.com/document/d/1z0evGu8JtjDPuFlH1pkbqYR6scRwukPfwWKJ-KmZRmI/edit?usp=sharing)
+  * [Tipos de datos en SQL](https://www.youtube.com/watch?v=A1tZ-d2uxws)
+  * [Cambiar tipo de dato con CAST](https://www.loom.com/share/dfca15dd59084f83a1343eb476c71e96?sid=5ffd1896-5cf2-4ad5-88dc-741152483c45)
+  * [Concepto crear nuevas variables](https://docs.google.com/document/d/1yp5MVB8iirIbYwptscJ4YrjsY4Bnd8mrsDB75Onun2s/edit?usp=sharing)
+  * [versión en audio](https://drive.google.com/file/d/15P7Gp4_F_EOasIgW7SUhK8bf0MIDD6K8/view?usp=drive_link)
+  * [Como crear nuevas variables con CONCAT y operaciones matemáticas](https://www.loom.com/share/65e15aa134c545bc9cfdc6b88bc2ae78?sid=46988f46-bcc0-471f-b89e-55c7ffe953b5)
+  * [Tipos de JOIN en SQL](https://www.youtube.com/watch?v=HDBdAIcqJQo)
+  * [Diferencia entre VIEW y CREATE TABLE](https://www.loom.com/share/97dbe237b9de459baa4d788f8bb44502?sid=e2168d4f-a8ff-44e4-b3f0-55e72596350a)
+  * [Cómo utilizar comando WITH y para qué sirve](https://www.loom.com/share/8e2f6f70db214e2484af45375539d8e9?sid=222c7e6d-1ff5-430a-ab28-64c025f34ebf)
+</p></details>
+
+- [ ] **Hacer un análisis exploratorio**
+
+  <details><summary>Links</summary><p>
+
+  * [Concepto variables categóricas](https://docs.google.com/document/d/1BIqa7xR0JNadM9kQExypo3plnwrNia92zCuxkPuMj5A/edit?usp=sharing)
+  * [versión en audio](https://drive.google.com/file/d/13gQ6Ni9FUfDmi5bjQivjeKj04fAI8Gl2/view?usp=drive_link)
+  * [Video sobre tipos de variables](https://www.loom.com/share/afa56686810e46309761bc889364b2d9?sid=cabf587c-7ba1-4419-b501-32c98a73e191)
+  * [Link para download de Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+  * [Video download y instalación de Power BI](https://www.youtube.com/watch?v=8lkZKeNdLWU)
+  * [Cómo empezar con Power BI](https://www.youtube.com/watch?v=L74STt9hnu4)
+  * [Conectar datos de bigquery a  Power BI](https://www.loom.com/share/eebef73c37fc47bda21576f0d300841e)
+  * [Cómo crear una tabla matrix en Power BI](https://www.youtube.com/watch?v=m2N7SXEj_9w)
+  * [Cómo crear gráficos en Power BI](https://www.youtube.com/watch?v=gNEgfp_HRWM)
+  * [Gráficos de barras o columnas en Power BI](https://www.youtube.com/watch?v=m7_6SHPovvY)
+  * [Concepto estadísticas descriptivas](https://docs.google.com/document/d/13xu7cf5LcUN2CE58qwyZoNrhS713Ci0tI9S1odeapig/edit?usp=sharing)
+  * [🔈 Concepto estadísticas descriptivas (versión en audio)](https://drive.google.com/file/d/1v6xdtWci7rYtMKibGowl9OxBArT3CVnI/view?usp=drive_link)
+  * [Concepto medidas de tendencia central](https://docs.google.com/document/d/1Ly_7zLmUjcczqCkQLQwvDYEGyRLtSNQLVi3w8CIh8sI/edit?usp=sharing)
+  * [🔈 Concepto medidas de tendencia central (versión en audio)](https://drive.google.com/file/d/1viy63m4n8Gn9aYHNuLJpd8RzFrTNnlw2/view?usp=drive_link)
+  * [Cómo crear una tabla con promedio y mediana en Power B](https://www.loom.com/share/67c7d22e0898482683654f1f6c53e41a?sid=e25d3fda-ee49-4d94-ab44-099785f33a9c)
+  * [Concepto Medidas de dispersión](https://docs.google.com/document/d/1a5N-8fV3X8pnhdRyXVcG293zJn2eL16KBhy-7NCExRI/edit?usp=sharing)
+  * [Concepto desviación estándar](https://docs.google.com/document/d/17OhF8RkTQxgwbDZtBphXd-nd9hXDrkylHGaF7ylezPo/edit?usp=sharing)
+  * [Desviación estándar en Power BI](https://www.loom.com/share/551494bd11124dd8ad4ca751ad47ab91)
+  * [Concepto correlación de Pearson](https://docs.google.com/document/d/1HvuENDveavTmlRtSGk3Gv3LqSPNbRPWNYgOU8e3CxTM/edit?usp=sharing)
+  * [Cómo calcular correlación en BigQuery](https://www.loom.com/share/9bf3e48cf57d48ca9c81c2c19562dedf?sid=c4c8a611-d0ae-4c4f-a2f5-200ce48746f4)
+</p></details>
+
+- [ ] **Aplicar técnica de análisis**
+
+  <details><summary>Links</summary><p>
+
+  * [Como crear un scatter plot en Power BI](https://www.loom.com/share/91adb4a427124fde8013d305a3d6111c?sid=114cf627-5d35-42d4-851b-147600e84e43)
+</p></details>
+
+- [ ] **Resumir información en un dashboard o reporte**
+
+  <details><summary>Links</summary><p>
+
+  * [Como crear scorecards en Power BI](https://www.loom.com/share/a8b4a6e43317415abc02049f7923e785?sid=b69d56f7-6f63-4e18-81bc-71abc1aff667)
+  * [Cómo incluir filtros en Power BI](https://www.loom.com/share/bcd20fecbf2b4298bd1419648189bc3e?sid=74ced7af-c3bc-4844-8b26-8e46732a8adc)
+</p></details>
+
+- [ ] **Presentar Resultados**
+
+  <details><summary>Links</summary><p>
+
+  * [Concepto presentar resultados](https://docs.google.com/document/d/10Xabbxk7WxojFAdncs3YSc4wSCLihw0LUOOqxijGdMc/edit?usp=sharing)
+  * [Que es Data Storytelling](https://www.youtube.com/watch?v=NDs2BXgvzPc)
+  * [diferentes formas de presentar una misma información](https://www.youtube.com/watch?v=2vWT6hmnVVg)
+  * [Video sobre como crear presentaciones en Google Slides](https://www.youtube.com/watch?v=T8Fs-zkIX3I)
+  * [Compartir presentación para trabajar en conjunto](https://www.loom.com/share/3220709262c142d4a0214cfc09856dcc?sid=b00df098-70e9-4a2a-89c7-e68b265ed588)
+  * [Artículo sobre presentar datos](https://apolitical.co/solution-articles/es/presentar-datos-5-consejos-hacer-datos-comprensibles)
+  * [Artículo sobre presentar datos](https://vilmanunez.com/como-hacer-una-presentacion-de-resultados/)
+  * [Video tips para una presentación](https://www.youtube.com/watch?v=MPW6Ak3dxWc&t=157s)
+</p></details>
